@@ -11,7 +11,7 @@ class ItemController extends Controller
     public function index(Request $request)
     {
         $items = Item::paginate(10); // Adjust pagination as necessary
-        return view('items.index', compact('items'));
+        return view('items.index', ['items' => $items]);
     }
 
     // Store a newly created item in storage.
