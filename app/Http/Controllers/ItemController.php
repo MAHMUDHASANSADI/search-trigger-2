@@ -61,3 +61,13 @@ class ItemController extends Controller
     }
 }
 
+#include<stdio.h>
+// int main(){
+//     int x,y;
+//     int result;
+//     result =  oishi(20,30);
+// }
+// int oishi(x,y){
+//     int sum;
+//     sum = x+y;
+// }
